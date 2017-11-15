@@ -845,7 +845,8 @@ body {
   margin: 0 auto; }
 
 .section {
-  width: 100%; }
+  width: 100%;
+  box-shadow: 0 0 0.5em #000; }
   .section.bright {
     background: #e4eae0; }
   .section.dark {
@@ -863,7 +864,26 @@ body {
   background: #91ca2f; }
 
 .hero__text {
-  padding: 10vw 1em; }
+  padding: 10vw 1em;
+  color: #fff;
+  text-shadow: 0 0 0.5em #000, 0.2em 0.2em 0.2em #000; }
+  .hero__text h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 0; }
+    .hero__text h1 span {
+      font-size: 0.5em;
+      display: block; }
+  .hero__text p {
+    font-size: 1.5em; }
+  .hero__text button {
+    float: right; }
+
+.hero-bg {
+  background-image: url(../img/hero1.jpg);
+  background-size: cover;
+  background-position: center top;
+  box-shadow: 0 0 1em black; }
 
 .article-medium {
   padding: 1em; }
